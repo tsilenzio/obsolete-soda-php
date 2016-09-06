@@ -4,7 +4,7 @@
     "keywords": ["SODA", "socrata"],
     "homepage": "http://dev.socrata.com",
     "require": {
-        "php": "~5.3",
+        "php": ">=5.3",
         "ext-curl": "*"
     },
     "autoload": {
