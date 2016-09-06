@@ -6,9 +6,9 @@
   $app_token = "B0ixMbJj4LuQVfYnz95Hfp3Ni";
   $response = NULL;
 
-  $latitude = array_get("latitude", $_POST);
-  $longitude = array_get("longitude", $_POST);
-  $range = array_get("range", $_POST);
+  $latitude = array_get_func("latitude", $_POST);
+  $longitude = array_get_func("longitude", $_POST);
+  $range = array_get_func("range", $_POST);
 
   if($latitude != NULL && $longitude != NULL && $range != NULL) {
     // Create a new unauthenticated client
